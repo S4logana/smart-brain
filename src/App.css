@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  z-index: -1;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+} 
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 5px;
+} 
+
+.rank {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  width: 600px;
+  height: 100px;
+  margin: -50px 0px 0px -300px;
+}
+
+.imageLinkForm {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 700px;
+  height: 210px;
+  margin: -105px 0 0 -350px;
+} 
+
+.imgBox {
+ position: sticky; 
+ margin: 30em auto 5px; 
+ width: 500px;
+ height: 300px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
