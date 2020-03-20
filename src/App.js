@@ -99,7 +99,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('http://localhost:3001/imageurl', {
+      fetch('https://arcane-garden-07739.herokuapp.com/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -109,7 +109,7 @@ class App extends Component {
       .then(respone => respone.json())
       .then(respone => {
         if (respone) {
-          fetch('http://localhost:3001/image', {
+          fetch('https://arcane-garden-07739.herokuapp.com:3001/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
