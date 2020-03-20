@@ -109,7 +109,7 @@ class App extends Component {
       .then(respone => respone.json())
       .then(respone => {
         if (respone) {
-          fetch('https://arcane-garden-07739.herokuapp.com:3001/image', {
+          fetch('https://arcane-garden-07739.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
