@@ -101,7 +101,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://arcane-garden-07739.herokuapp.com/imageurl', {
+      fetch('https://vast-temple-44499.herokuapp.com/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -111,7 +111,7 @@ class App extends Component {
       .then(respone => respone.json())
       .then(respone => {
         if (respone) {
-          fetch('https://arcane-garden-07739.herokuapp.com/image', {
+          fetch('https://vast-temple-44499.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
